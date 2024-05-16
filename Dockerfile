@@ -1,5 +1,5 @@
 # Start with the FastAPI base image
-FROM tiangolo/uvicorn-gunicorn-fastapi:python3.9
+FROM demisto/fastapi
 WORKDIR /app
 COPY . /app
 RUN pip install --no-cache-dir firebase-admin pydantic
