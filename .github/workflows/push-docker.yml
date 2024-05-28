@@ -30,6 +30,6 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: .
-          platforms: linux/arm/v7
+          platforms: 
           push: true
           tags: raphaelberrivin/pythonv8:latest
